@@ -1,0 +1,3 @@
+This program implements an algorithm for autonomous generation of random symmetric one-stroke kolams 
+The inputs are the dimension of the kolam (odd number > 3), the required kolam symmetry (currently the generation of only the kolams with a 2-mirror symmetry are supported), and an aesthetic parameter which determines the approximate proportion of the kolam primitives (core shapes resembling a drop, a door, an eye, a fan, and a diamond that make up the kolam)
+The kolam is drawn around anchor-dots placed in a grid of diamond shape. The dots are arranged in rows with one dot in the first row, and three in the second, five in the third, until the selected kolam dimension is reached, and by progressively decreasing by two until a single dot is reached.
